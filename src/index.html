@@ -5,23 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog preview card</title>
     <link href="./output.css" rel="stylesheet" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    /> -->
   </head>
-  <body class="bg-yellow-300">
-        <main class="bg-white rounded-3xl w-96">
-            <div class="">
-                <img src="" alt=""/>
-            </div>
-            <div>
-                <h1 class="">HTML & CSS foundations</h1>
-                <p>
-                    These languages are the backbone of every website, defining structure, content, and presentation.
-                </p>
-            </div>
+  <body class="bg-yellow-300 p-5 max-w-md ">
+    <main class="bg-white rounded-3xl p-5 shadow-[9px_9px_0px_0px_rgba(0,0,0,1.1)] ">
+      <div class="">
+        <img src="./assets//images/illustration-article.svg" alt="" class="rounded-lg w-full" />
+      </div>
 
-            <di>
-                <img src="" alt=""/>
-                <span>Greg Hooper</span>
-            </di>
-        </main>
+      <div class="my-3">
+        <div class="bg-yellow-300 rounded-md inline-block py-1 px-2 mb-3">
+          <span class="font-bold">Learning</span>
+        </div>
+        <p class="text-gray-950">Published 21 Dec 2023</p>
+      </div>
+
+      <div>
+        <h1 class="font-bold my-3 text-gray-950 hover:text-yellow-300 cursor-pointer">HTML & CSS foundations</h1>
+        <p class="text-gray-500">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3 mt-6">
+        <img src="./assets/images/image-avatar.webp" alt="foto do usuário" />
+        <span class="font-bold">Greg Hooper</span>
+      </div>
+    </main>
   </body>
 </html>
