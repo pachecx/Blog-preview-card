@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
-        //figtree: ["Figtree",  sans-serif],
+       // sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        figtree: ["Figtree",],
       },
     },
   },
